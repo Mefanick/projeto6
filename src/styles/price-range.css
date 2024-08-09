@@ -1,9 +1,31 @@
-/*
-    priceRange
-    priceRangeText
-    rangeInput
-*/
-#pricerange{
-    background-color: rgb(248, 152, 7);
+#priceRange {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#priceRangeText {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+#rangeInput {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
     width: 100%;
+    outline: none;
+    background-color: var(--brand-1);
+    border-radius: 0.5rem;
+    height: 0.5rem;
+}
+#rangeInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.5rem solid var(--brand-1);
 }
