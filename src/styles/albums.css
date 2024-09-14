@@ -1,0 +1,31 @@
+.albuns{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#albunsContainer{
+    height:1,032px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.album__box{
+   background-color: var(--color-gray-7);
+   width: 308px;
+   gap: 10px;
+   margin-bottom: 19px;
+}
+.album__comment--box{
+    margin:10px 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+.album__comment--genre, .album__comment--price, .album__comment--title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 16px 0;
+}
+.album__comment--price{
+
+}
