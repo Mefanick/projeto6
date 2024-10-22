@@ -40,3 +40,7 @@
 #albunsTitle{
     margin-bottom: 30px;
 }
+.album__button:hover{
+    background-color: var(--brand-2);
+    cursor: pointer;
+}

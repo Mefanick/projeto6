@@ -23,6 +23,7 @@
 }
 .genre__button:hover{
     border: 1px black solid;
+    cursor: pointer;
 }
 .option{
     background-color: var(--text-color-1);
