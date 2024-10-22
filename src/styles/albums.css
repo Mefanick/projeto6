@@ -29,6 +29,10 @@
 .album__comment--price{
 
 }
+.album__box > img{
+    width: 308px;
+    height: 290px;
+}
 .album__button{
     width: 90px;
     height: 40px;
