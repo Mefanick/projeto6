@@ -10,10 +10,11 @@
     justify-content: space-between;
 }
 .album__box{
-   background-color: var(--color-gray-7);
+   background-color: var(--background-color-2);
    width: 308px;
    gap: 10px;
    margin-bottom: 19px;
+   border-radius: 6px;
 }
 .album__comment--box{
     margin:10px 16px 0 16px;
@@ -26,9 +27,7 @@
     margin-bottom: 10px;
     padding: 16px 0;
 }
-.album__comment--price{
 
-}
 .album__box > img{
     width: 308px;
     height: 290px;

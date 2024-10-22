@@ -22,7 +22,7 @@
     font-weight: 500;
 }
 .genre__button:hover{
-    border: 1px black solid;
+    border: 1px var(--text-color-1) solid;
     cursor: pointer;
 }
 .option{

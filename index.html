@@ -15,7 +15,7 @@
         <div class="header">
           <h1><span>o</span>pen <span>m</span>usic</h1>
           <button class="header__button">
-            <img src="./src/assets/icons/moon-icon.svg" alt="moon-icon" />
+            <img src="./src/assets/icons/moon-icon.svg" alt="moon-icon" class="button__image"/>
           </button>
         </div>
       </header>
@@ -43,7 +43,7 @@
           <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
           <div id="priceRangeText">
             <h2>Definir Preço</h2>
-            <h3>Até <span>R$ 150</span></h3>
+            <h3>Até <span id="price">R$ 150</span></h3>
           </div>
           <input type="range" id="rangeInput" min="0" max="150" value="150"/>
         </section>
@@ -60,8 +60,8 @@
                   <h3>Acabou o Chorare</h3>
                 </div>
                 <div class="album__comment--genre">
-                  <p>Novos Baianos</p>
-                  <p>MPB</p>
+                  <p class="text">Novos Baianos</p>
+                  <p class="text">MPB</p>
                 </div>
                 <div class="album__comment--price">
                   <h4>R$137,91</h4>
@@ -76,8 +76,8 @@
                   <h3>The Wall</h3>
                 </div>
                 <div class="album__comment--genre">
-                  <p>Pink Floyd</p>
-                  <p>Rock</p>
+                  <p class="text">Pink Floyd</p>
+                  <p class="text">Rock</p>
                 </div>
                 <div class="album__comment--price">
                   <h4>R$123,56</h4>
@@ -92,8 +92,8 @@
                   <h3>To Pimp a Butterfly</h3>
                 </div>
                 <div class="album__comment--genre">
-                  <p>Kendric Lamar</p>
-                  <p>Rap</p>
+                  <p class="text">Kendric Lamar</p>
+                  <p class="text">Rap</p>
                 </div>
                 <div class="album__comment--price">
                   <h4>R$ 102,66</h4>
@@ -108,8 +108,8 @@
                   <h3>The Wall</h3>
                 </div>
                 <div class="album__comment--genre">
-                  <p>Pink Floyd</p>
-                  <p>Rock</p>
+                  <p class="text">Pink Floyd</p>
+                  <p class="text">Rock</p>
                 </div>
                 <div class="album__comment--price">
                   <h4>R$123,56</h4>
@@ -124,8 +124,8 @@
                   <h3>Acabou o Chorare</h3>
                 </div>
                 <div class="album__comment--genre">
-                  <p>Novos Baianos</p>
-                  <p>MPB</p>
+                  <p class="text">Novos Baianos</p>
+                  <p class="text">MPB</p>
                 </div>
                 <div class="album__comment--price">
                   <h4>R$137,91</h4>
@@ -140,8 +140,8 @@
                   <h3>To Pimp a Butterfly</h3>
                 </div>
                 <div class="album__comment--genre">
-                  <p>Kendric Lamar</p>
-                  <p>Rap</p>
+                  <p class="text">Kendric Lamar</p>
+                  <p class="text">Rap</p>
                 </div>
                 <div class="album__comment--price">
                   <h4>R$ 102,66</h4>
@@ -155,5 +155,4 @@
     </div>
     <script src="./src/scripts/index.js" type="module" defer></script>
   </body>
-
 </html>

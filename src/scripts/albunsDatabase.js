@@ -45,20 +45,10 @@ const albumList = [
 
   export default albumList;
   /*
-    criar albuns dinamicos, (funcao que cria album e tira com base no database)
-    revisar conteudos antigos
 
 
-    dark mode : -> troca a classe do html de light para dark
-    criar media query do dark/light mode
-
-
-
-    mudar filtro de preço de 100 para 150
-    
-
-    tornar a constante da barra integrada tanto a pagina quanto ao numero do label até x valor
-    
+    responsividade -> vai demorar <- 
+    quarta inteira nisso
 
     conectar api de musicas
     n faço ideia de como fazer, ver tutorial yt
