@@ -10,7 +10,7 @@
 #genreList{
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: clamp(36.25rem, 29.679rem + 13.69vw, 42rem);
     height: 30px;
 }
 .genre__button{
