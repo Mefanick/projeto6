@@ -11,8 +11,17 @@
     header/main
 
     main/header 80% container
-
     
+    Container clamp(26.563rem, 9.943rem + 88.636vw, 87.5rem)
+
+    main/header clamp(18.75rem, 4.773rem + 74.545vw, 70rem)
+
+    generos até 600px normal
+    <600px muda para duas fileiras
+
+    li/img -> 120px
+
+
     responsividade:
 
     celular 425px

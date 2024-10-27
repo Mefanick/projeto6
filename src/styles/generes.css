@@ -9,9 +9,19 @@
 }
 #genreList{
     display: flex;
-    justify-content: space-between;
-    width: clamp(36.25rem, 29.679rem + 13.69vw, 42rem);
+    justify-content: space-evenly;
+    width: clamp(40rem, 10rem + 60vw, 62.5rem);
+    flex-wrap: wrap;
     height: 30px;
+}
+@media (max-width: 800px){
+    #genreList{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0;
+        width: 100%;
+        height: auto;
+    }
 }
 .genre__button{
     color: var(--text-color-2);
