@@ -1,6 +1,6 @@
 export { addClickOnButton, genreFilter}
 
-import { renderElements } from "./albumCreation";
+import { renderElements } from "./albumCreation.js";
 
 //import renderElements, 
 

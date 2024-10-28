@@ -8,7 +8,6 @@ function renderElements(albuns) {
     li[i].remove();
   }
   for (let i = 0; i < albuns.length; i++) {
-    console.log(albuns[i].id);
     createAlbum(albuns[i].id - 1);
   }
 }
