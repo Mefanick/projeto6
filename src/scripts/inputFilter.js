@@ -1,4 +1,4 @@
-export { applyInputRangeStyle };
+export { applyInputRangeStyle , applyPriceFilter};
 
 import { genreFilter } from "./genreFilter.js";
 
@@ -12,6 +12,11 @@ function applyInputRangeStyle() {
         var(--brand-1) ${runnableTrackProgress}%, 
         var(--color-gray-5) ${runnableTrackProgress}%)`;
     number.innerText = `R$ ${currentInputValue}`;
-    genreFilter();
   });
+}
+function applyPriceFilter(){
+  const priceButton = document.querySelector("#priceRangeButton");
+  priceButton.addEventListener ("click", (event) => {
+    genreFilter()
+  })
 }

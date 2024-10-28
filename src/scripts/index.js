@@ -4,7 +4,7 @@ import albumList from "./albunsDatabase.js";
 
 import { modeSwitch } from "./modeSwitch.js";
 import { addClickOnButton, genreFilter } from "./genreFilter.js";
-import { applyInputRangeStyle } from "./inputFilter.js";
+import { applyInputRangeStyle, applyPriceFilter} from "./inputFilter.js";
 
 async function routine() {
   const options = {
@@ -17,6 +17,7 @@ async function routine() {
   );
   const promise = response.json();
   applyInputRangeStyle();
+  applyPriceFilter();
   const switchButton = document.querySelector(".header__button");
   switchButton.addEventListener("click", () => {
     modeSwitch();

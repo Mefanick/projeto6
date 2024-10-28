@@ -1,8 +1,10 @@
 #priceRange {
   width: 99%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 80px;
+  justify-content: space-between;
 }
 #priceRangeText {
   display: flex;
@@ -15,7 +17,7 @@
     appearance: none;
     background: transparent;
     cursor: pointer;
-    width: 100%;
+    width: 85%;
     outline: none;
     background-color: var(--brand-1);
     border-radius: 0.5rem;
@@ -30,4 +32,14 @@
     background-color: #fff;
     border-radius: 50%;
     border: 0.5rem solid var(--brand-1);
+}
+#priceRangeButton{
+  background: var(--brand-2);
+  width: 9%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  color: #fff;
+  cursor: pointer;
 }
