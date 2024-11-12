@@ -43,7 +43,7 @@ async function genreFilter() {
 
   promise.then((promise) => {
     for (let i = 0; i < promise.length; i++) {
-      if (inputRange.value < parseInt(promise[i].price)) {
+      if (inputRange.value >= parseInt(promise[i].price)) {
         if (promise[i].genre.includes(valor) || valor == "todos") {
           newArray.push(promise[i]);
         }
